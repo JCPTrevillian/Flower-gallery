@@ -7,6 +7,7 @@ body{
     background: #ffffff;
 }
 .header{
+    width: 100%;
     padding: 60px;
     text-align: center;
     background: #ffa6c9;
@@ -57,11 +58,11 @@ body{
     cursor: pointer;
 }
 .footer{
-    margin-top: 150px;
-    width: 100%;
-    padding: 100px 15%;
-    background: #333;
-    color: #efefef;
+    margin-top: 60px;
+    width: 80%;
+    padding: 80px 15%;
+    background: #ffa6c9;
+    color: #000000;
     display: flex;
 }
 .footer div{
@@ -78,7 +79,7 @@ body{
 .col-1 a{
     display: block;
     text-decoration: none;
-    color: #efefef;
+    color: #000000;
     margin-bottom: 10px;
 }
 form input{
@@ -94,7 +95,7 @@ form input{
 form button{
     background: transparent;
     border: 2px solid #fff;
-    color: #fff;
+    color: #000000;
     border-radius: 30px;
     padding: 10px 30px;
     font-size: 15px;
